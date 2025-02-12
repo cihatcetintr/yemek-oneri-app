@@ -1,0 +1,127 @@
+
+```markdown
+# Yemek Öneri Uygulaması Geliştirme Planı
+
+## 1. Temel Özellikler
+
+### Malzeme Giriş Sistemi
+- **Kullanıcı dostu arayüz**:
+  - Manuel yazma/QR okuma/sesli giriş
+  - Otomatik tamamlama (veritabanı entegrasyonlu)
+  - Opsiyonel stok takip sistemi
+
+### Akıllı Eşleştirme Algoritması
+```python
+# Örnek pseudo-code
+def recipe_score(user_ingredients, recipe):
+    missing = recipe.ingredients - user_ingredients
+    substitution_count = calculate_substitutions(user_ingredients, recipe)
+    return len(missing) * 0.7 + substitution_count * 0.3
+```
+
+### Kategorizasyon
+- **Eksik malzeme**:
+  - 0 eksik (Tamamlanmış)
+  - 1-3 eksik (Kolayca tamamlanabilir)
+  - 4+ eksik (Alternatif gerektiren)
+  
+- **Diğer kategoriler**:
+  - Yemek türü: Ana yemek, çorba, tatlı
+  - Mutfak kültürü: Türk, İtalyan, Asya
+  - Diyet tipi: Vegan, glutensiz, düşük kalorili
+
+---
+
+## 2. Teknoloji Stack'i
+
+### Frontend
+| Platform       | Teknoloji                     |
+|----------------|-------------------------------|
+| Web            | React.js/Vue.js (PWA desteği) |
+| Mobil (iOS/Android) | Flutter                |
+| State Management| Redux/MobX                   |
+
+### Backend
+- **Dil**: Node.js (Express) veya Python (Django/FastAPI)
+- **Veritabanı**: 
+  - PostgreSQL (ilişkisel veriler)
+  - Redis (önbellekleme)
+- **Arama Motoru**: ElasticSearch
+
+### Cloud
+- **Hizmetler**: AWS/GCP/Firebase
+- **Containerization**: Docker + Kubernetes
+
+---
+
+## 3. Veri Yapısı (Örnek Schema)
+
+```json
+{
+  "recipe": {
+    "title": "Mantarlı Risotto",
+    "ingredients": [
+      {"name": "arborio pirinci", "substitutes": ["baldo pirinci"]},
+      {"name": "mantar", "type": "vegetable"}
+    ],
+    "categories": ["italyan", "ana yemek"],
+    "difficulty": 3,
+    "cooking_time": 40
+  }
+}
+```
+
+---
+
+## 4. Gelişmiş Özellikler (MVP Sonrası)
+
+- 🔄 **Malzeme İkame Sistemi**:
+  - "Süt → badem sütü" gibi öneriler
+  - ML tabanlı akıllı ikame algoritması
+
+- 🛒 **Entegrasyonlar**:
+  - Eksik malzemeleri market listesine aktarma
+  - Lokasyon bazlı fiyat karşılaştırma
+
+- 🤝 **Sosyal Özellikler**:
+  - Yemek fotoğraf paylaşımı
+  - Kişiselleştirilmiş diyet profilleri
+
+---
+
+## 5. UI/UX Stratejisi
+
+### Görsel İletişim
+- 🟢🟡🔴 Eksik malzeme sayısına göre renk kodlaması
+- 📱 Swipe edilebilir tarif kartları
+
+### Etkileşim Tasarımı
+- ✨ Malzeme eklerken animasyonlu feedback
+- 🎚️ İnteraktif filtreleme çubukları
+
+---
+
+## 6. MVP Yol Haritası
+
+1. **Hafta 1-2**: 
+   - Temel API geliştirme (CRUD operasyonları)
+   - Basit eşleştirme algoritması
+
+2. **Hafta 3-4**:
+   - Cross-platform UI prototipleri
+   - Firebase entegrasyonu
+
+3. **Hafta 5**:
+   - Beta test (500+ tarifle)
+   - Kullanıcı geri bildirim toplama
+
+4. **Hafta 6-7**:
+   - Performans optimizasyonları
+   - Resmi lansman ve pazarlama
+
+---
+
+> **Öneri**: İlk versiyonda Firebase kullanarak hızlı başlangıç yapın. Kullanıcıların kendi tariflerini ekleyebileceği bir sistemle veritabanını organik olarak büyütün. Premium özellikler için abonelik modeliyle paralel olarak yerel işletme sponsorluklarını keşfedin.
+``` 
+
+Bu .md dosyasını GitHub/GitLab/BitBucket gibi platformlarda direkt görüntüleyebilir veya [Obsidian](https://obsidian.md/) gibi araçlarla düzenleyebilirsiniz.

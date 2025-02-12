@@ -1,0 +1,31 @@
+anasayfada ilk olarak farklı ülkelerden ve mutfaklarından yapay zekayla oluşturulmuş şeflerin fotoğrafları çıkacak , seçim yapılabilecek veya birden fazla seçilebilecek
+seçildiğinde şefler ne tür bir yemek istediğini soracak ve logo halinde seçenekler çıkacak (kahvaltı, öğle yemeği, akşam yemeği,hepsini seç)
+bu seçenek tıklandığında oluşan filtreye göre önerilen yemek tarifleri çıkacak
+malzemelerime göre yemek öner seçeneği olacak
+malzeme listesi verilecek ve kişi malzeme listesinden evinde olan malzemeleri seçebilecek
+bu seçeneklerden bazıları şunlar olacaktır;
+Sebze
+Kuru Soğan, Sarımsak, Maydanoz, Domates, Havuç, Patates, Dereotu, Taze Soğan, Biber, Kabak, Patlıcan, Mantar, Taze Fesleğen, Marul, Taze Nane, Salatalık, Bezelye, Kereviz, Ispanak, Taze Kekik, Sırık domates, Pancar turşusu, Taze Bakla, Brüksel Lahanası, Kuru Patlıcan, Asma Yaprağı, Chili Biberi, Ciğer, Reyhan, Kuru Dolmalık Biber, Taze Börülce, Deniz börülcesi, Kırmızı Turp, Siyah Turp, Beyaz Lahana, Dolmalık Biber, Karnabahar, Taze Biberiye, Brokoli, Kereviz Sapı, Taze Fasulye, Semizotu, Pancar, Roka, Bal Kabağı, Enginar, Bamya, Pazı, Taze Sarımsak, Kırmızı Lahana.
+
+Hayvansal Gıdalar / Etler
+Yumurta, Kıyma, Tavuk Eti, Kuşbaşı Et, Balık, Sucuk, Kuzu Eti, Hindi Eti, Sosis, Dana Eti, Kalamar, Pastırma, Tavuk Baget, Karides, Midye, Kaymak, Ciğer, Somon füme, Kuzu gerdan, Temizlenmiş dana işkembe, Çipura (Çupra), Kuzu kemikli incik, Piliç taşlık (katı), Norveç Uskumrusu, Hamsi, Kuzu Kaburga.
+
+Süt Ürünleriß
+Peynir, Yoğurt, Süt, Krema, Ricotta, Kefir, Yoğurt Alt Suyu.
+
+Buğday / Baklagil
+Un, Pirinç, Ekmek, Bulgur, Nohut, Makarna, Galeta Unu, Kırık pirinç, Yeşil Mercimek, Yulaf Ezmesi, Buğday, Mısır Unu, Yufka, Kuru Fasulye, Kırmızı Mercimek, Arpa Şehriye, Tel Şehriye, Buğday Nişastası, İrmik, Siyez Bulguru, Yulaf unu, Ekmek Kırıntısı, Kuru Bakla, Erişte, Kuskus, Barbunya, Kuru Börülce, Yer Fıstığı, Sandviç Ekmeği, Lazanya, Mısır, Tortilla Ekmeği, Hamburger ekmeği, Yulaflı Bisküvi, Mantı Makarna, Baget Ekmek, Maş Fasulyesi.
+
+Meyve
+Limon, Portakal, Avokado, Yeşil Elma, Siyah Zeytin, Elma, Nar, Çilek, Üzüm, Frambuaz, Böğürtlen, Ayva, İncir, Şeftali, Karadut, Kivi, Muz.
+
+Kuruyemiş
+Ceviz İçi, Dolmalık Fıstık (Çam), Fındık, Badem, Antep Fıstığı, Kuru Kayısı, Hindistan Cevizi, Hurma, Karışık Kuru Meyve.
+
+Mutfak Malzemeleri
+Yağlı Kağıt.
+Pişirme Aletleri
+Tava,Fırın,Düdüklü Tencere,Airfry,Tencere,Tost Makinesi,
+
+
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Yemek Öneri</string>
+    <string name="title_activity_main">Yemek Öneri</string>
+    <string name="package_name">com.yemekoneri.app</string>
+    <string name="custom_url_scheme">com.yemekoneri.app</string>
+</resources>
